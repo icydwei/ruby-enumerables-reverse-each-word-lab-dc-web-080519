@@ -19,9 +19,11 @@
   
 #def reverse_each_word(sentence)
  # sentence.split.collect {|word| word.reverse}.join(" ")
-end
+#end
 
 
 def reverse_each_word(sentence)
-  sentence.split.collect {|word| word.reverse}.join(" ")
+  string = sentence.split
+  string.each {|word| word.reverse}
+  string.join(" ")
 end
