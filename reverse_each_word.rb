@@ -17,6 +17,11 @@
   #recapture array in reverse order
   #covert reversed array to string and return
   
+#def reverse_each_word(sentence)
+ # sentence.split.collect {|word| word.reverse}.join(" ")
+end
+
+
 def reverse_each_word(sentence)
   sentence.split.collect {|word| word.reverse}.join(" ")
 end
